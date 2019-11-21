@@ -1,0 +1,118 @@
+
+.logo {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1200px;
+    overflow: hidden;
+}
+
+.wrapper {
+  margin: 0 0 0 50%;
+}
+
+
+  /* STYLING BOX PHOTO */
+ .boxphoto {
+    color: rgb(5, 5, 146);
+    background: white;
+    width: 25%;
+    margin-left: 0%; 
+    position: absolute;
+    z-index: 1;  
+    padding: 25px; 
+    top: 22%;
+ }
+ a:hover {
+    text-decoration-line: underline;
+}
+
+
+/* STYLING 4 COLUMNS CONTENT */
+
+.demo-content{
+    padding: 15px;
+    font-size: 18px;
+    min-height: 50px;
+    background: white;
+    margin-bottom: 15px;
+    
+}
+.container {
+    margin-top: 270px;
+}
+
+
+/* STYLING TOP NAVIGATION BAR */
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #01689b;
+    
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    display: block;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    
+  }
+  
+  /* Change the style of links on hover */
+  .topnav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+  
+  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+ 
+
+
+.header-img {
+    width: 100%;
+}
+
+/* STYLING SEARCH FORM  */
+
+.input-group.md-form.form-sm.form-1 input{
+    border: 1px solid #bdbdbd;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    }
+
+    .input-group.md-form.form-sm.form-1.pl-0 {
+        width: 20%;
+        margin-left: 75%;
+        margin-top: -50%;
+       }
+
+   /* STYLING CONTENT */
+
+   h3 {
+    color: #01689b;    
+   }
+
+   h3:hover {
+       text-decoration-line: underline;
+   }
+
+   
